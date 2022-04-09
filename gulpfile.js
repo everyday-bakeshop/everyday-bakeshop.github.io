@@ -7,23 +7,23 @@ const imagemin = require("gulp-imagemin");
 function cssTask(cb) {
 	return src("./src/*.css") // read .css files from ./src/ folder
 		.pipe(postcss()) // compile using postcss
-		.pipe(dest("./assets/css")) // paste them in ./assets/css folder
+		.pipe(dest(".docs/assets/css")) // paste them in ./assets/css folder
 		.pipe(browserSync.stream());
 	cb();
 }
 
 // Task for minifying images
 function imageminTask(cb) {
-	return src("./assets/images/*")
+	return src(".docs/assets/images/*")
 		.pipe(imagemin())
-		.pipe(dest("./assets/images"));
+		.pipe(dest(".docs/assets/images"));
 	cb();
 }
 
 function browsersyncServe(cb) {
 	browserSync.init({
 		server: {
-			baseDir: "./",
+			baseDir: "./docs",
 		},
 	});
 	cb();

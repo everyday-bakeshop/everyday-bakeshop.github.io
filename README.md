@@ -1,4 +1,4 @@
-# Tailwind CSS Boilerplate
+# Everyday Bakeshop Website
 
 ## Dev Server
 
