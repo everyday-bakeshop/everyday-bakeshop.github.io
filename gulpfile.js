@@ -7,7 +7,7 @@ const imagemin = require("gulp-imagemin");
 function cssTask(cb) {
 	return src("./src/*.css") // read .css files from ./src/ folder
 		.pipe(postcss()) // compile using postcss
-		.pipe(dest(".docs/assets/css")) // paste them in ./assets/css folder
+		.pipe(dest("./docs/assets/css")) // paste them in ./assets/css folder
 		.pipe(browserSync.stream());
 	cb();
 }

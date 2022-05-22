@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        'eb-pink': '#E6CFCF',
+        'eb-gray': '#E3DAD3',
       }
     },
   },

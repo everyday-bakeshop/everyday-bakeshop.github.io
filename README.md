@@ -10,6 +10,7 @@
 2. Start the development server:
 
     ```bash
+    nvm use v16
     npm run dev
     ```
 
