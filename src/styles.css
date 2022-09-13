@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 
+@font-face {
+    font-family: 'amsterdam-four';
+    src: url('../fonts/amsterdam-four.woff2') format('woff2'),
+         url('../fonts/amsterdam-four.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	@apply bg-gray text-text-dark font-sans;
 }

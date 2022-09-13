@@ -5,13 +5,13 @@ module.exports = {
     fontFamily: {
       sans: ['quiet-sans', 'sans-serif'],
       display: ['novecento-sans-wide'],
-      serif: ['',''],
+      serif: ['amsterdam-four', 'serif'],
     },
     extend: {
       colors: {
-        "gray": "#EDE7E3",
-        "text-dark": "#221111",
-        "text-medium": "#554444", 
+        'gray': '#EDE7E3',
+        'text-dark': '#221111',
+        'text-medium': '#554444', 
       }
     },
   },
