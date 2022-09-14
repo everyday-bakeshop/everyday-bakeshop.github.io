@@ -2,15 +2,43 @@
 @tailwind components;
 
 @font-face {
-    font-family: 'amsterdam-four';
-    src: url('../fonts/amsterdam-four.woff2') format('woff2'),
-         url('../fonts/amsterdam-four.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'amsterdam-four';
+  src: url('../fonts/amsterdam-four.woff2') format('woff2'),
+       url('../fonts/amsterdam-four.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
 	@apply bg-gray text-text-dark font-sans;
+}
+
+h2 {
+  @apply font-display text-2xl uppercase text-center mb-12;
+}
+
+a.nav {
+  display: block;
+  position: relative;
+  padding: 0 0;
+}
+a.nav::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 0.2em; 
+  background-color: #221111;
+  opacity: 1;
+  border-radius: 0.25rem;
+  transform: scale(0);
+  transform-origin: center;
+  transition: transform 325ms;
+}
+a.nav:hover::after,
+a.nav:focus::after {
+  transform: scale(1);
 }
 
 @tailwind utilities;
