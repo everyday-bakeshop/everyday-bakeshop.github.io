@@ -10,11 +10,19 @@
 }
 
 body {
-	@apply bg-gray text-text-dark font-sans;
+	@apply bg-gray text-text-dark font-sans antialiased;
 }
 
 h2 {
-  @apply font-display text-2xl uppercase text-center mb-12;
+  @apply font-display text-3xl uppercase text-center;
+}
+
+h3 {
+  @apply font-extrabold mb-2 text-xl;
+}
+
+video {
+  box-shadow: 20px 20px #30525B;
 }
 
 a.nav {
