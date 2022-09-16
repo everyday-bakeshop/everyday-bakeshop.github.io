@@ -18,7 +18,7 @@ h2 {
 }
 
 h3 {
-  @apply font-extrabold mb-2 text-xl;
+  @apply font-bold mb-2 text-[22px];
 }
 
 video {
