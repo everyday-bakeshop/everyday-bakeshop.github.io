@@ -3,11 +3,15 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['novecento-sans-wide', 'sans-serif'],
+      sans: ['quiet-sans', 'sans-serif'],
+      display: ['novecento-sans-wide'],
+      serif: ['amsterdam-four', 'serif'],
     },
     extend: {
       colors: {
-        'eb-gray': '#E3DAD3',
+        'gray': '#EDE7E3',
+        'text-dark': '#221111',
+        'text-medium': '#554444', 
       }
     },
   },
