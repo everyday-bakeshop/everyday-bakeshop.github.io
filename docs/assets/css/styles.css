@@ -519,7 +519,7 @@ video {
 
 body {
   --tw-bg-opacity: 1;
-  background-color: rgb(237 231 227 / var(--tw-bg-opacity));
+  background-color: rgb(238 229 226 / var(--tw-bg-opacity));
   font-family: quiet-sans, sans-serif;
   --tw-text-opacity: 1;
   color: rgb(34 17 17 / var(--tw-text-opacity));
@@ -871,7 +871,7 @@ a.nav:focus::after {
 
 .bg-gray {
   --tw-bg-opacity: 1;
-  background-color: rgb(237 231 227 / var(--tw-bg-opacity));
+  background-color: rgb(238 229 226 / var(--tw-bg-opacity));
 }
 
 .py-4 {
